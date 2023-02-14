@@ -29,9 +29,9 @@ bot_token=your-bot-token-here
 # Note (**Fixed**)
 ###### This bot will not work in groups **(It will send the voice to your private message)**.
 ###### The reason is that i wrote `user.usrid` when sending voice. so it will send it to user chat-ID, not other chat-ID's.
-###### For fixing this. just change `user.usrid` to `message.chat.id` in send_voice method
+###### For fixing this. just change `user.usrid` to `message.chat.id` in [send_voice] method.
 ###### Update: Fixed! now bot can send voices to groups.
 
 
 # Thanks
-###### Start the bot and enjoy - Dont forget to star :)
+###### Start the bot and enjoy - Don't forget to star :)
