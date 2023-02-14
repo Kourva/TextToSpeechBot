@@ -15,8 +15,8 @@ import os
 with open("token.env", "r") as config:
     Token = config.read().strip().split("=")[1]
 
+    
 # Client
-
 bot = telebot.TeleBot(Token)
 
 
