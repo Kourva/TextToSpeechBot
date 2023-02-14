@@ -62,7 +62,7 @@ def start_command(message):
 
     # Sends the voice
     with open("out.ogg", "rb") as voice:
-        bot.send_voice(user.usrid, voice)
+        bot.send_voice(message.chat.id, voice)
     print(f"Sent voice to User '{name}' ({user.usrid})")
 
 
@@ -78,7 +78,7 @@ def echo_all(message):
 
     # Sends the voice
     with open("out.ogg", "rb") as voice:
-        bot.send_voice(user.usrid, voice, message.text)
+        bot.send_voice(message.chat.id, voice, message.text)
     print(f"Sent voice to User '{name}' ({user.usrid})")
 
 
