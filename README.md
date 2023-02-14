@@ -16,7 +16,8 @@ git clone https://github.com/Kourva/TextToSpeechBot && cd TextToSpeechBot
 pip install -r requirements.txt
 ```
 + run
-```python3 bot.py
+```bash
+python3 bot.py
 ```
 
 # Config
@@ -26,4 +27,4 @@ pip install -r requirements.txt
 bot_token=your-bot-token-here
 ```
 
-###### Start the bot and enjoy
+###### Start the bot and enjoy :)
