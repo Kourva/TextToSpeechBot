@@ -2,7 +2,7 @@
 
 
 # Telegram TTS Brian bot that converts your text into voice
-# Github : https://github.com/Kourva/TextToSpeechBot
+# Github : https://github.com/Kourva/kozyol
 
 
 # Imports
