@@ -9,7 +9,7 @@
 # Installation
 + clone
 ```bash
-git clone https://github.com/kozyol/TextToSpeechBot && cd TextToSpeechBot
+git clone https://github.com/Kourva/TextToSpeechBot && cd TextToSpeechBot
 ```
 + requirements
 ```bash
